@@ -9,7 +9,7 @@ clients = [
     {
         "nom": f"Client{i}",
         "email": generation_email(),
-        "montant_depense": round(random.uniform(100.0, 900.0), 2)
+        "montant_depense": round(random.uniform(10.0, 200.0), 2)
     }
     for i in range(1, 51)  # Permet de générer 50 entrées
 ]
